@@ -1,0 +1,96 @@
+\documentclass{article}
+
+\usepackage{mathtools}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{theorem}
+\usepackage{thmtools}
+\usepackage{hyperref}
+\usepackage{amssymb}
+
+\title{College Algebra Section 0.9 Homework}
+\author{Timothy Heath}
+\date{\today}
+
+\newtheorem{question}{Question}
+
+\begin{document}
+	\maketitle
+	\listoftheorems
+	\newpage
+	\begin{question}
+		Solve the equation: $\sqrt{2m-2}-7=9$\\
+		Answer: $m=\boxed{129}$\\
+		Enter your answer as an integer or a reduced
+		improper fraction in the form A/B.\\
+		$$
+		\begin{aligned}
+			\sqrt{2m-2}-7&=9\\
+			\sqrt{2m-2}&=16\\
+			2m-2&=\pm16^2\\
+			2m-2&=\pm256\\
+			2m&=\pm258\\
+			m&=\pm129\\
+			\text{screwed up, negative solution is two above}\\
+			\text{Check Solutions}&\\
+			\sqrt{2(129)-2}-7&=9\\
+			\sqrt{258-2}-7&=9\\
+			\sqrt{256}-7&=9\\
+			16-7&=9\\
+			9&=9\\
+			\therefore\text{129 is a solution}&\\
+			\sqrt{2(-127)-2}-7&=9\\
+			\sqrt{-254-2}-7&=9\\
+			\sqrt{-256}-7&=9\\
+			16i-7&=9\\
+			\text{Not a solution}
+		\end{aligned}
+		$$
+	\end{question}
+	\begin{question}
+		Solve for x. $\sqrt[4]{9x-6}=2$\\
+		$x=\boxed{\frac{22}{9}}$\\
+		$$\begin{aligned}
+			\sqrt[4]{9x-6}&=2\\
+			9x-6&=\pm2^4\\
+			9x-6&=\pm16\\
+			9x-6=16,&\quad9x-6&=-16\\
+			9x=22,&\quad9x&=-10\\
+			x=\frac{22}{9},&\quad x&=\frac{-10}{9}\\
+			\sqrt[4]{9\frac{22}{9}-6}&=2\\
+			\sqrt[4]{22-6}&=2\\
+			\sqrt[4]{16}&=2\\
+			2&=2\\
+			\sqrt[4]{9\frac{-10}{9}-6}&=2\\
+			\sqrt[4]{-10-6}&=2\\
+			\sqrt[4]{-16}&=2\\
+			2i&=2\\
+		\end{aligned}$$
+	\end{question}
+	\newpage
+	\begin{question}
+		Solve the equation $\sqrt{10-x}+x=4$.\\
+		The only solution is $x=\boxed{1}$\\
+		$$\begin{aligned}
+		\sqrt{10-x}+x&=4\\
+		\sqrt{10-x}&=4-x\\
+		10-x&=16-8x+x^2\\
+		10-x&=x^2-8x+16\\
+		0&=x^2-7x+6\\
+		x&=\frac{-(-7)\pm\sqrt{(-7)^2-4(1)(6)}}{2(1)}\\
+		x&=\frac{7\pm\sqrt{49-24}}{2}\\
+		x&=\frac{7\pm\sqrt{25}}{2}\\
+		x&=\frac{7\pm5}{2}\\
+		x&=\frac{7+5}{2},\quad x=\frac{7-5}{2}\\
+		x&=\frac{12}{2},\quad x=\frac{2}{2}\\
+		x&=6,\quad x=1\\
+		\sqrt{10-6}+6&=4\\
+		\sqrt{4}+6&=4\\
+		2+6&=4\\
+		8&=4\\
+		\sqrt{10-1}+1&=4\\
+		\sqrt{9}+1&=4\\
+		3+1&=4\\
+		4&=4\\
+		\end{aligned}$$
+	\end{question}
+\end{document}

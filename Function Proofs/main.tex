@@ -1,0 +1,128 @@
+\documentclass{amsart}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amssymb}
+
+\title{Proof for proving an equality a function | College Algebra}
+\author{Timothy Heath}
+\date{\today}
+
+\newtheorem{theo}{Theorem}
+\newtheorem{lem}{lemma}
+\newtheorem{prop}{Proposition}
+\newtheorem{exa}{Example}
+\newtheorem{defn}{Definition}
+
+\begin{document}
+	\maketitle
+	\newpage
+	\begin{defn}[Relation]
+		A relation shows how two quantities
+		relate to each other. A relation may
+		be either an equality or an inequality.
+		\begin{exa}
+			$$x=1$$
+		\end{exa}
+		\begin{exa}
+			$$1=1$$
+		\end{exa}
+		\begin{exa}
+			$$x+5=1$$
+		\end{exa}
+		\begin{exa}
+			$$x>1$$
+		\end{exa}
+		\begin{exa}
+			$$4x+3<1$$
+		\end{exa}
+	\end{defn}
+	\begin{defn}[Equation]
+		An Equation is just a relation showing
+		one quantity being the same as some
+		other quantity.
+		\begin{exa}
+			$$4x^2+3x=7$$
+		\end{exa}
+	\end{defn}
+	\begin{defn}[Inequality]
+		An Inequality shows that two quantities are not the
+		same.
+		\begin{exa}
+			$$4x^2+3x\neq7$$
+		\end{exa}
+	\end{defn}
+	\begin{defn}[Set]
+		A set is a collection of unique objects.
+		\begin{exa}
+			$$\{1,2,3\}$$
+		\end{exa}
+		\begin{exa}
+			$$\{1,2,x\}$$
+		\end{exa}
+		\begin{exa}
+			$$\{1,2,\{1,2,x\}\}$$
+		\end{exa}
+		\begin{exa}
+			$$\{1,1,2\}=\{1,2\}$$
+		\end{exa}
+		\begin{exa}
+			$$(-\infty,\infty)=\mathbb{R}$$
+		\end{exa}
+	\end{defn}
+	\begin{defn}[Expressed relation as set | graph data]
+		Any relation may be expressed as a set of points.
+		\begin{exa}
+			The set of all points from the relation.
+			$$\{(x,y)|x^2=y\}$$
+		\end{exa}
+	\end{defn}
+	\begin{defn}[Domain]
+		A domain of a relation shows the allowed input values.
+		\begin{exa}
+			Let $A$ be $\{(x,y)|x^2=y\}$.\\
+			Then the domain of A is...\\
+			$$D_A=\{x|(x,y)\in A\}$$
+		\end{exa}
+	\end{defn}
+	\begin{defn}[Range]
+		A range of a relation shows the possible output
+		values.
+		\begin{exa}
+			Let $A$ be $\{(x,y)|x^2=y\}$.\\
+			Then the range of A is...\\
+			$$R_A=\{y|(x,y)\in A\}$$
+		\end{exa}
+	\end{defn}
+	\begin{defn}[Function]
+		A function is an equality where no two separate
+		points share the same x value.
+		\begin{exa}
+			$$f(x)=x^2$$
+		\end{exa}
+	\end{defn}
+	To prove an equality is a function you must demonstrate
+	that there is at least a single x value that produces
+	two solutions. I will demonstrate here that instead of
+	proving directly, one may simply view the domain of an
+	equality to determine whether or not it is a function.
+	\begin{proof}
+		$$\text{The equality}$$
+		$$\{(x,y)|x^2=y\}$$
+		$$\text{In order to prove the equality to be a
+		function, we must demonstrate that there are at
+		least two points with the same y value.}$$
+		$$\text{If there are two x values that give the
+		same y value, then there are more points then there
+		are x values.}$$
+		$$\text{From a high level this may be shown via:}$$
+		$$\text{Let $A$ be }\{(x,y)|x^2=y\}$$
+		$$\text{If the relation is a function then:}$$
+		$$n(D_A)=n(A)$$
+		$$\therefore\text{In order to prove an equality is
+		a function, you only need to demonstrate that there
+		are more points than there are x values.}$$
+		$$\text{In order to prove there are more points
+		than x values, you must show that at least one
+		x value gives two points.}$$
+		\end{proof}
+\end{document}
